@@ -6,7 +6,7 @@ from networks import EDSC
 import getopt
 import sys
 
-assert (int(str('').join(torch.__version__.split('.')[0:3])) >= 100)  # requires at least pytorch version 1.0.0
+# assert (int(str('').join(torch.__version__.split('.')[0:3])) >= 100)  # requires at least pytorch version 1.0.0
 
 torch.set_grad_enabled(False)  # make sure to not compute gradients for computational performance
 
