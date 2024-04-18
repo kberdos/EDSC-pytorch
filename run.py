@@ -15,8 +15,8 @@ torch.backends.cudnn.enabled = True  # make sure to use cudnn for computational 
 arguments_strModel = "EDSC_s"
 arguments_strModelStateDict = './EDSC_s_l1.ckpt'
 
-arguments_strFirst = './frame10.png'
-arguments_strSecond = './frame11.png'
+arguments_strFirst = './muffin0lg.jpeg'
+arguments_strSecond = './muffin1lg.jpeg'
 arguments_strOut = './out.png'
 arguments_intDevice = 0
 arguments_floatTime = 0.1
