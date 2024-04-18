@@ -507,7 +507,7 @@ def cupy_kernel(strFunction, objectVariables):
 
 # end
 
-@cupy.util.memoize(for_each_device=True)
+@cupy._util.memoize(for_each_device=True)
 def cupy_launch(strFunction, strKernel):
     module = cupy.RawModule(code = strKernel)
     return module.get_function(strFunction)
