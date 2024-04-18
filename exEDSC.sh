@@ -27,3 +27,11 @@ end=`date +%s`
 RUNTIME=$((end-start))
 echo "finished generating frames in $RUNTIME"
 
+echo "creating gif..."
+
+convert -delay 2 -loop 0 frames/*.png output.gif
+
+
+
+
+
