@@ -18,7 +18,7 @@ arguments_strModelStateDict = './EDSC_s_l1.ckpt'
 arguments_strFirst = './frame10.png'
 arguments_strSecond = './frame11.png'
 arguments_strOut = './out.png'
-arguments_intDevice = 2
+arguments_intDevice = 0
 arguments_floatTime = 0.1
 
 for strOption, strArgument in \
