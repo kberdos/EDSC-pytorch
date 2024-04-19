@@ -8,5 +8,5 @@ GPU 5: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-66d55b12-e952-3883-7053-ddaf568663b
 GPU 6: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-0baa35af-3f55-416b-a08c-4be45850e8c6)
 GPU 7: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-6e0f49e6-2c17-9b78-08eb-1142a9e648e5)
 running python scripts
-finished generating frames in 207
+finished generating frames in 198
 creating gif...
